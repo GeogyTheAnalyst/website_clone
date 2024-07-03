@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: 'roboto', sans-serif;
+    vertical-align: baseline;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(252, 251, 251);
+}
+.header{
+    width: 100%;
+    height:auto;
+    padding: auto;
+    background: black;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.navbar a{
+    color: white;
+      
+}
+.logo{
+    width: 150px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+.navbar h1{
+    color: white;
+    margin-left: 5px;
+    width: 1px;
+}
+.navbar li{
+    margin-right: 700px;
+    font-size: 20px;
+}
+.navbar li a{
+    color:white ;
+}
+.button-1{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    margin: 8px;
+    border-radius: 4px ;
+    padding: 8px;
+    width: 90px;
+    border: 3px solid grey;
+    border-color: gray;
+    font-size: medium;
+    font-weight: 400;
+    box-sizing: border-box;
+    transition: border-color 150ms ease;
+}
+button{
+   
+    background-color:red;
+    color: white;
+    margin: 8px;
+    border-radius: 4px ;
+    padding: 8px;
+    width: 100px;
+    border: 1px solid grey;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.left-pane{
+    width: 60%;
+    float: left;
+    display: flex;
+
+}
+.right-pane{
+    width: 30%;
+    float:right;
+    display: flex;
+    
+}
+.body-content{
+    margin: 15px;
+    padding: 32px 70px;
+    vertical-align: baseline;
+   
+}
+hr{
+    width: 70%;
+    border: 0;
+    border-bottom: 1px solid gray;
+    box-shadow: none;
+    display: block;
+    margin: 0 0 40px 0;
+    padding-top: 40px;
+}
+.body-content h1{
+    font-size: 40px;
+    font-weight: 750;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+ img{
+    height: 50%;
+    width: 65%;
+    margin: 0 0;
+    margin-bottom: 15px;
+    padding: 0 2px;
+    display: flex;
+
+}
+.body-content h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 16px;
+}
+.body-content p{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 18px;
+    width: 65%;
+}
+a{
+    color: red;
+    font-weight: 400;
+    text-decoration: none;
+}
+ .body-content ol{
+    margin: 24px 0;
+    padding-left: 24px;
+ }
+ .body-content ol li{
+    margin-bottom: 8px;
+    padding-left: 24px;
+    position: relative;
+ }
+ .feedback-container{
+    margin-top: 20px;
+    padding: 24px 0;
+ }
+
+ .note{
+    border-left: 5px solid rgb(217, 211, 211);
+    padding-left: 10px;
+    margin-bottom: 10px;
+ }
+ .note div{
+    font-size: 14px;
+ }
+
+.feedback-container{
+    margin-top: 5px;
+}
+.feedback-container a{
+    color: #000;
+    text-decoration: underline;
+    padding-left: 5px;
+}
+
+.container{
+    border-top: 10px solid red;
+    border-radius: 10px;
+    border-style: ridge;
+    margin: 130px 0;
+    width: 100%;
+    height: 50%;
+    position: relative; 
+  
+}
+.container h3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.container a{
+    text-decoration: underline;
+    color: #000;
+}
+.container ul{
+    list-style: none;
+}
+.container ul li{
+    padding: 0 10px;
+    margin: 0 0 15px;
+    flex-direction: row;
+    font-weight: 800;
+}
+
+.footer{
+    background: black;
+    padding: 0 60px;
+    background: linear-gradient(10deg,black 50%, rgb(158, 22, 22));
+    margin: auto;
+    font-size: 100%;
+}
+.language-selector{
+    padding: 25px 20px;
+    min-width: 160px;
+    border: 2px;
+    border-radius: 3px solid grey;
+    
+}
+.language-selector select{
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+    background: none;
+    color: grey;
+    padding: 12px 30px;
+}
+
+.list {
+    margin: 15px;
+    list-style: none;
+    width: 25%;
+}
+.list li ul {
+    padding: 10px 15px ;
+}
+
+.list li ul a{
+    font-size: 17px;
+    font-weight: 400;
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+
+ 
